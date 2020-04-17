@@ -1,4 +1,4 @@
-import { shallowMount } from '@vue/test-utils'
+import { mount } from '@vue/test-utils'
 import List from '@/components/List.vue'
 
 test('renders all the TODOs items', () => {
@@ -8,7 +8,7 @@ test('renders all the TODOs items', () => {
         { title: 'Brooklyn Nine-Nine' }
     ]
 
-    const list = shallowMount(List, {
+    const list = mount(List, {
         propsData: { todos }
     })
 
