@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders 2 items, the second one marked as done 1`] = `
+<section id="todoapp">
+  <header>
+    <h1>TODO app</h1>
+  </header>
+  <section class="main">
+    <form class="new-todo"><label for="new-todo">Add a todo</label> <input id="new-todo" placeholder="E.g. Walk the dog"> <button>Add</button></form>
+    <ul>
+      <li class="pending"><input type="checkbox">
+        Breaking Bad
+      </li>
+      <li class="done"><input type="checkbox">
+        The Wire
+      </li>
+    </ul>
+  </section>
+  <footer>
+    <p>
+      Number of TODOs: 2
+    </p>
+  </footer>
+</section>
+`;
